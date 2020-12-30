@@ -3,7 +3,7 @@ import base64
 from Crypto.Cipher import AES #pip install pycryptodome!
 
 if len(sys.argv) != 2:
-    print("Usage: python3 password_found")
+    print("Usage: python3 password")
     sys.exit()
 
 cpassword = sys.argv[1]
